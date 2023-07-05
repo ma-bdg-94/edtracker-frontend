@@ -1,0 +1,27 @@
+.row {
+  background: #fff !important;
+}
+
+.side {
+  padding: 0 !important;
+}
+
+.side-photo {
+  filter: brightness(90%);
+}
+
+.label-responsive {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .label-responsive {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .label-responsive {
+    font-size: 14px;
+  }
+}
